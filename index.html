@@ -8,16 +8,31 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>burger</title>
     <meta name="description" content="">
     <link rel="shortcut icon" href="#">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/site.css">
+
     <script src="assets/js/site.js" defer></script>
 </head>
 
 <body>
 
+    <nav>
+        <!-- Always visible items in the nav bar -->
+        <img class="logo" onClick="menuCallBack('logo')" src="assets/img/home.svg">
+
+        <img class="icon" onClick="menuButton()" src="assets/img/burgerIcon.svg">
+
+        <!-- The collapsable menu -->
+        <ul id="menuItems" class="hidden">
+            <li><span onClick="menuCallBack(1)">option 1</span></li>
+            <li><span onClick="menuCallBack(2)">option 2</span></li>
+            <li><span onClick="menuCallBack(3)">option 3</span></li>
+        </ul>
+
+    </nav>
 
 
 </body>

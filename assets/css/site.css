@@ -1,0 +1,46 @@
+nav {
+  background-color: SeaGreen;
+  color: snow;
+
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+nav .logo {
+  max-height: 40px;
+}
+nav .logo:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+nav ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+nav ul li {
+  margin-bottom: 0;
+  padding: 0.5em;
+}
+
+nav ul li:hover {
+  background-color: chartreuse;
+}
+
+nav .icon {
+  max-height: 40px;
+  background-color: rgb(255, 255, 255);
+}
+
+nav .icon:hover {
+  background-color: rgb(95, 95, 95);
+}
+
+.hidden {
+  display: none;
+}
